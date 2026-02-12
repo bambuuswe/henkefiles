@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henke Filerna</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            color: white;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .content-box {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            margin-bottom: 30px;
+        }
+
+        .story-section {
+            margin-bottom: 30px;
+        }
+
+        .story-section h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+
+        .story-section p {
+            margin-bottom: 15px;
+            text-align: justify;
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .image-card {
+            background: #f8f9fa;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .image-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .image-card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .image-card .caption {
+            padding: 15px;
+            text-align: center;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .upload-info {
+            background: #e3f2fd;
+            border-left: 5px solid #2196f3;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 0 10px 10px 0;
+        }
+
+        .upload-info h3 {
+            color: #1976d2;
+            margin-bottom: 10px;
+        }
+
+        .upload-info code {
+            background: #fff;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+        }
+
+        footer {
+            text-align: center;
+            color: white;
+            margin-top: 40px;
+            opacity: 0.8;
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 2em; }
+            .content-box { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📁 Henke Filerna</h1>
+            <p class="subtitle">En samling av minnen, vänskap och äventyr</p>
+        </header>
+
+        <div class="content-box">
+            <div class="story-section">
+                <h2>🌟 Historien om Henke, Theo och Jessica</h2>
+                
+                <p>I en tid då vänskap var mer sällsynt än någonsin tidigare, fanns det tre själar vars vägar korsades på ett sätt som skulle komma att definiera deras liv för alltid. Henke, med sitt karismatiska leende och outtröttliga energi, stod som den naturliga ledaren i deras trio. Hans förmåga att få alla att känna sig välkomna och sedda var något som varken Theo eller Jessica någonsin hade upplevt hos någon annan människa.</p>
+
+                <p>Theo, den tänksamma och kreativa själen, kompletterade Henkes energi på ett sätt som få förstod. Medan Henke drog folk till sig med sin magnetiska personlighet, hade Theo den unika gåvan att se det som andra missade. Hans observationer var ofta så djupt insiktsfulla att både Henke och Jessica skulle sitta tysta i flera minuter efter att han delat med sig av sina tankar, låtande orden sjunka in och forma nya perspektiv på deras gemensamma verklighet.</p>
+
+                <p>Jessica, hjärtat i deras trio, bar på en styrka som hon sällan visade för omvärlden. Hennes empati och förmåga att känna av andras känslor gjorde henne till den osynliga limmet som höll gruppen samman genom alla svårigheter. När Henke var för ambitiös och Theo för djupt försjunken i sina tankar, var det Jessica som påminde dem om att andas, att vara närvarande, att uppskatta stunden.</p>
+
+                <p>Deras vänskap började under oklara omständigheter, som de flesta verkligt betydelsefulla möten gör. Det var en regnig höstdag när Henke, som då var ny i staden, råkade stöta till Theos kaffekopp på det lilla caféet vid hörnet. Kaffet spilldes över Theos anteckningsbok, fylld med skisser och idéer som han vårdat i månader. Istället för ilska, som Henke förväntat sig, möttes han av Theos lugna leende och orden: "Kanske var det meningen att dessa sidor skulle få en ny färg."</p>
+
+                <p>Jessica, som satt vid ett bord i närheten och bevittnat hela scenen, kunde inte låta bli att skratta åt situationen. Hennes skratt var så smittsamt att både Henke och Theo, trots den förstörda anteckningsboken, inte kunde annat än att skratta med. Det var så det började - med spillt kaffe, en förstörd anteckningsbok, och ett skratt som skulle komma att ek genom åren av vänskap som följde.</p>
+
+                <p>Under de kommande månaderna utvecklades deras vänskap till något extraordinärt. De upptäckte gemensamma intressen som de aldrig hade förväntat sig. Henke introducerade dem för världen av äventyr och spontanitet - nattliga promenader genom staden, impulsiva resor till okända platser, och utmaningar som pressade dem utanför deras komfortzoner. Theo lärde dem att uppskatta konstens och filosofins djup, att se skönhet i det vardagliga och att ifrågasätta de självklarheter som de tidigare tagit för givna.</p>
+
+                <p>Jessica bidrog med något ännu mer värdefullt - hon lärde dem att verkligen lyssna på varandra. Genom henne förstod Henke att ledarskap inte handlar om att alltid ha rätt, utan om att skapa utrymme för andra att växa. Theo lärde sig att hans djupa tankar fick ännu större betydelse när han delade dem med andra, att ensamhet och eftertanke var värdefullt, men att delad visdom var oändligt mycket mäktigare.</p>
+
+                <p>Tillsammans genomgick de livets alla skiften. De firade triumfer som kändes oövervinnerliga i stunden, och de stödde varandra genom förluster som hotade att bryta sönder deras världsbilder. När Henke förlorade sitt första stora projekt och tvivlade på allt han trott sig vara bra på, var det Theo som påminde honom om att misslyckanden är bevis på att man vågar, och Jessica som satt bredvid honom i tystnad, bara närvarande, tills han var redo att prata.</p>
+
+                <p>När Theo gick igenom sin mörkaste period av kreativ blockering och tvivel på sitt konstnärskap, organiserade Henke en utställning av Theos gamla verk i sitt vardagsrum, bjöd in alla de kände, och övertygade Theo om att hans konst berörde människor på sätt som han aldrig kunde förutse. Jessica skrev personliga brev till varje gäst, förklarade vad Theos konst betytt för dem individuellt, och skapade en atmosfär av uppskattning som fick Theo att gråta av tacksamhet.</p>
+
+                <p>Och när Jessica stod inför sitt livs svåraste beslut, när hon var tvungen att välja mellan säkerhet och sina drömmar, var det Henke som hjälpte henne se att mod inte är avsaknad av rädsla, utan handling trots rädslan. Theo skapade en hel serie konstverk inspirerade av Jessicas resa, visuella påminnelser om hennes styrka som hon kunde bära med sig när tvivlen blev för starka.</p>
+
+                <p>Åren gick, och deras vänskap bara djupnade. De lärde sig att kärlek i dess renaste form inte behöver vara romantisk för att vara livsavgörande. De lärde sig att familj är något man kan välja, att hem är en känsla snarare än en plats, och att de mest värdefulla skatterna i livet är de minnen man skapar tillsammans med dem som verkligen ser en.</p>
+
+                <p>Henke Filerna är en hyllning till denna vänskap. Det är en samling av ögonblick, av skratt och tårar, av tillväxt och försoning. Varje bild som du ser här representerar ett kapitel i deras gemensamma historia - inte perfekta ögonblick, utan äkta ögonblick. För i en värld som ofta försöker övertyga oss om att perfektion är målet, påminner Henke, Theo och Jessica oss om att äkthet är det enda som verkligen betyder något i längden.</p>
+
+                <p>Denna sida är tillägnad alla som har haft turen att hitta sitt folk, de själar som känner hemma utan att behöva förklara sig. Må historien om Henke, Theo och Jessica inspirera dig att vårda dina egna vänskaper, att se dem som de investeringar i ditt livs rikedom som de verkligen är.</p>
+            </div>
+
+            <div class="upload-info">
+                <h3>📸 Så här lägger du till bilder:</h3>
+                <p>Ladda upp dessa filer i samma mapp som denna HTML-fil på GitHub:</p>
+                <ul style="margin: 10px 0; padding-left: 20px;">
+                    <li><code>henke1.png</code> - Första bilden</li>
+                    <li><code>henke2.png</code> - Andra bilden</li>
+                    <li><code>henke3.png</code> - Tredje bilden</li>
+                </ul>
+                <p>Bilderna kommer automatiskt att visas i galleriet nedan när du laddat upp dem!</p>
+            </div>
+
+            <div class="gallery">
+                <div class="image-card">
+                    <img src="henke1.png" alt="Henke Bild 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22250%22%3E%3Crect width=%22400%22 height=%22250%22 fill=%22%23e0e0e0%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 font-family=%22Arial%22 font-size=%2218%22 fill=%22%23666%22 text-anchor=%22middle%22 dy=%22.3em%22%3ELadda upp henke1.png%3C/text%3E%3C/svg%3E'">
+                    <div class="caption">Henke 1</div>
+                </div>
+                <div class="image-card">
+                    <img src="henke2.png" alt="Henke Bild 2" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22250%22%3E%3Crect width=%22400%22 height=%22250%22 fill=%22%23e0e0e0%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 font-family=%22Arial%22 font-size=%2218%22 fill=%22%23666%22 text-anchor=%22middle%22 dy=%22.3em%22%3ELadda upp henke2.png%3C/text%3E%3C/svg%3E'">
+                    <div class="caption">Henke 2</div>
+                </div>
+                <div class="image-card">
+                    <img src="henke3.png" alt="Henke Bild 3" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22250%22%3E%3Crect width=%22400%22 height=%22250%22 fill=%22%23e0e0e0%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 font-family=%22Arial%22 font-size=%2218%22 fill=%22%23666%22 text-anchor=%22middle%22 dy=%22.3em%22%3ELadda upp henke3.png%3C/text%3E%3C/svg%3E'">
+                    <div class="caption">Henke 3</div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Skapad med 💜 för Henke, Theo och Jessica</p>
+            <p>© 2024 Henke Filerna</p>
+        </footer>
+    </div>
+</body>
+</html>
